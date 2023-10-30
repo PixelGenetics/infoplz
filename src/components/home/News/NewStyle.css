@@ -1,0 +1,30 @@
+
+*{
+    background-color: rgb(255, 255, 255);
+}
+.mainContainer{
+    border: 2px solid red;
+}
+
+.gridNoticias{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    min-height: 200px;
+    gap: 10px;
+    background: lightslategray;
+    grid-template-columns: repeat(3,300px);
+    border: 2px solid blue;
+}
+
+.gridNoticias img{
+    width: 50%;
+    height: 50%;
+}
+
+.gridNoticias p{
+    width: 15%;
+    background: lightslategray;
+    border: 2px solid red;
+}
